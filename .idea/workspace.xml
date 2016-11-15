@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d681dcf-257d-494d-a1cc-cb5c11b75c19" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DetectPlates.py" afterPath="$PROJECT_DIR$/DetectPlates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
     </list>
     <ignored path="placasPythonFinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,20 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="129">
+              <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
               <folding>
-                <marker date="1479081036523" expanded="true" signature="1840:1872" ph="SELECT tipo_... imagenes" />
-                <marker date="1479081036523" expanded="true" signature="4825:4878" ph="INSERT INTO imgplaca... " />
+                <marker date="1479183534772" expanded="true" signature="1840:1872" ph="SELECT tipo_... imagenes" />
+                <marker date="1479183534772" expanded="true" signature="1893:1926" ph="SELECT nombr... imagenes" />
+                <marker date="1479183534772" expanded="true" signature="5244:5311" ph="INSERT INTO imgplaca... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetectPlates.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DetectPlates.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DetectPlates.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -55,6 +56,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DetectPlates.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -67,7 +69,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="685" />
+    <option name="width" value="1368" />
     <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -120,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoInteligenciaArtificial" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -140,10 +142,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="685" height="742" extended-state="4" />
+    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5292259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25455928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -184,19 +186,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479081036523" expanded="true" signature="1840:1872" ph="SELECT tipo_... imagenes" />
-            <marker date="1479081036523" expanded="true" signature="4825:4878" ph="INSERT INTO imgplaca... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <marker date="1479081036523" expanded="true" signature="1840:1872" ph="SELECT tipo_... imagenes" />
-            <marker date="1479081036523" expanded="true" signature="4825:4878" ph="INSERT INTO imgplaca... " />
+            <marker date="1479183534772" expanded="true" signature="1840:1872" ph="SELECT tipo_... imagenes" />
+            <marker date="1479183534772" expanded="true" signature="1893:1926" ph="SELECT nombr... imagenes" />
+            <marker date="1479183534772" expanded="true" signature="5244:5311" ph="INSERT INTO imgplaca... " />
           </folding>
         </state>
       </provider>
@@ -206,6 +198,18 @@
         <state relative-caret-position="270">
           <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+          <folding>
+            <marker date="1479183534772" expanded="true" signature="1840:1872" ph="SELECT tipo_... imagenes" />
+            <marker date="1479183534772" expanded="true" signature="1893:1926" ph="SELECT nombr... imagenes" />
+            <marker date="1479183534772" expanded="true" signature="5244:5311" ph="INSERT INTO imgplaca... " />
+          </folding>
         </state>
       </provider>
     </entry>

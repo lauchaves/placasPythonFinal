@@ -82,6 +82,7 @@ def main():
 
     while True:
         query = "SELECT tipo_imagen FROM imagenes "
+        query2 = "SELECT nombreimagen FROM imagenes"
         datos = [DB_HOST, DB_USER, DB_PASS, DB_NAME]
 
         conn = MySQLdb.connect(*datos)  # Conectar a la base de datos
@@ -91,6 +92,16 @@ def main():
         #data= cursor.fetchone()
         #result = str(cursor.fetchone()[0])
         result = cursor.fetchall()
+        cursor.close()  # Cerrar el cursor
+        conn.close()
+
+        conn = MySQLdb.connect(*datos)  # Conectar a la base de datos
+        cursor = conn.cursor()  # Crear un cursor
+        cursor.execute(query2)  # Ejecutar una consulta
+        # result = run_query(query)
+        # data= cursor.fetchone()
+        # result = str(cursor.fetchone()[0])
+        result2 = cursor.fetchall()
         cursor.close()  # Cerrar el cursor
         conn.close()
 
@@ -148,15 +159,15 @@ def main():
 
                 writeLicensePlateCharsOnImage(imgOriginalScene, licPlate)
 
-                #cv2.imshow("imgOriginalMatricula", imgOriginalScene)
-
-                #cv2.imwrite("imgOriginalScene.png", imgOriginalScene)
-
                 conn = MySQLdb.connect(*datos)  # Conectar a la base de datos
                 cursor = conn.cursor()  # Crear un cursor
 
                 try:
-                    cursor.execute("""INSERT INTO imgplaca (pathImg, placa) values (%s, %s)""", (fileimg, licPlate.strChars))
+                    for list in result2:
+                        for y in list:
+                            print  y
+                    cursor.execute("""INSERT INTO imgplaca (pathImg, placa, nombreimg) values (%s, %s,%s)""",
+                                   (fileimg, licPlate.strChars, y))
                     conn.commit()
                 except:
                     print "error mysql"
