@@ -25,7 +25,7 @@ def detectPlatesInScene(imgOriginalScene):
     imgThreshScene = np.zeros((height, width, 1), np.uint8)
     imgContours = np.zeros((height, width, 3), np.uint8)
 
-    cv2.destroyAllWindows()
+##    cv2.destroyAllWindows()
 
     if Main.showSteps1 == True: # show steps #######################################################
         cv2.imshow("0", imgOriginalScene)
